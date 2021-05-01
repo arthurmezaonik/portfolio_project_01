@@ -33,3 +33,36 @@ h1{
     text-transform: uppercase;
     letter-spacing: 4px;
 }
+
+#menu-bar a{
+    color:black
+}
+
+#menu-bar a:hover{
+    color: red;
+}
+
+#menu-bar li{
+    display: inline;
+    margin: 5px;
+}
+
+#menu-bar li:last-of-type{
+    border:none
+}
+
+#menu-bar{
+    text-align: center;
+    font-size: 100%;
+    text-transform: uppercase;
+    margin: 10px;
+    letter-spacing: 2px;
+}
+
+.active{
+    border-bottom: 1px solid gray;
+}
+
+.active:hover{
+    border-color: red;
+}
