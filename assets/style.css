@@ -2,6 +2,7 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    background-color: #d1d1d1;
 }
 
 /* SMARTPHONE (from 375px to 800px wide)*/
@@ -137,6 +138,10 @@ h1{
     font-weight: bold;
     text-align: left;
     font-size: 100%;
+}
+
+#news-container a:hover{
+    color: red;
 }
 
 #news-container p{
