@@ -4,7 +4,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-/* SMALL AND MEDIUM SMARTPHONE */
+/* SMARTPHONE (from 375px to 800px wide)*/
 /* header */
 #logo>span{
     color: red
@@ -117,10 +117,10 @@ h1{
     display:flex;
     width: 100%;
     flex-direction: column;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
     margin: 2px;
-
+    padding-bottom: 5px;
 }
 
 #news-container h2{
@@ -152,6 +152,7 @@ h1{
     display: flex;
     max-height: 200px;
     margin-top: 10px;
+    padding: 0 5px 0 5px
 }
 
 .news-text{
@@ -166,4 +167,34 @@ h1{
     max-height: inherit;
     max-width: 700px;
     margin-right: 5px;
+}
+
+/* Upcoming videos */
+#upcoming-videos-container{
+    display:flex;
+    width: 100%;
+    flex-direction: column;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    margin: 10px 2px;
+    padding-bottom: 5px;
+}
+
+#upcoming-videos-container h2{
+    font-size: 25px;
+    font-family: Poppins, sans-serif;
+    margin-bottom: 5px;
+    padding: 5px 0 0 5px;
+}
+
+#upcoming-videos-container h3{
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: left;
+    font-size: 100%;
+}
+
+.video{
+    padding: 0 5px 0 5px;
+    margin-top: 10px
 }
