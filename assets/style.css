@@ -3,6 +3,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
     background-color: #d1d1d1;
+    color: #3a3a3a;;
 }
 
 /* SMARTPHONE (from 375px to 800px wide)*/
@@ -30,14 +31,14 @@ header{
 
 h1{
     font-family: Poppins, sans-serif;
-    color: black;
+    color: #3a3a3a;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 4px;
 }
 
 #menu-bar a{
-    color:black
+    color:#3a3a3a;
 }
 
 #menu-bar a:hover{
@@ -133,7 +134,7 @@ h1{
 
 #news-container a{
     text-decoration: none;
-    color: black;
+    color: #3a3a3a;
     text-transform: capitalize;
     font-weight: bold;
     text-align: left;
@@ -203,3 +204,22 @@ h1{
     padding: 0 5px 0 5px;
     margin-top: 10px
 }
+
+/* Footer */
+footer{
+    height: 100px;
+}
+
+.social-networks{
+    text-align: center;
+}
+
+.social-networks > li{
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 150%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
