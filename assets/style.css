@@ -66,3 +66,17 @@ h1{
 .active:hover{
     border-color: red;
 }
+
+/* Main image and text */
+#main-img-outer{
+    max-height: 500px;
+    height: 50vw;
+    width: 100%;
+    overflow: hidden;
+}
+
+#main-img{
+    height: 50vw;
+    width: 100%;
+    max-height: 500px;
+}
