@@ -4,6 +4,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+/* Samll and medium smatphomes */
 /* header */
 #logo>span{
     color: red
@@ -74,6 +75,7 @@ h1{
     width: 100%;
     overflow: hidden;
     position: relative;
+    margin: 5px 0;
     
 }
 
@@ -108,4 +110,59 @@ h1{
 
 #main-text span{
     color: red;
+}
+
+/* News */
+#news-container{
+    display:flex;
+    width: 100%;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 2px;
+
+}
+
+#news-container h2{
+    font-size: 25px;
+    font-family: Poppins, sans-serif;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+#news-container a{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: left;
+    font-size: 100%;
+}
+
+#news-container p{
+    font-size: 60%;
+    margin-top: 2px;
+}
+
+.news-author{
+    font-weight: bold;
+}
+
+.news{
+    display: flex;
+    max-height: 200px;
+    
+}
+
+.news-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.news-img{
+    width: 60%;
+    height: 100%;
+    max-height: inherit;
+    max-width: 700px;
+    margin-right: 5px;
 }
