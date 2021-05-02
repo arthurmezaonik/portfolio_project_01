@@ -6,6 +6,13 @@ body{
     color: #3a3a3a;;
 }
 
+.subtitle{
+    font-size: 25px;
+    font-family: Poppins, sans-serif;
+    margin-bottom: 5px;
+    padding: 5px 0 0 5px;
+}
+
 /* SMARTPHONE (from 375px to 800px wide)*/
 /* header */
 #logo>span{
@@ -17,7 +24,7 @@ body{
     position: relative;
     text-align: center;
     padding-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 header a{
@@ -39,6 +46,8 @@ h1{
 
 #menu-bar a{
     color:#3a3a3a;
+    margin: 10px 5px 5px 15px
+    ;
 }
 
 #menu-bar a:hover{
@@ -47,7 +56,6 @@ h1{
 
 #menu-bar li{
     display: inline;
-    margin: 5px;
 }
 
 #menu-bar li:last-of-type{
@@ -58,8 +66,8 @@ h1{
     text-align: center;
     font-size: 100%;
     text-transform: uppercase;
-    margin: 10px;
     letter-spacing: 2px;
+    line-height: 20px;
 }
 
 .active{
@@ -125,13 +133,6 @@ h1{
     padding-bottom: 5px;
 }
 
-#news-container h2{
-    font-size: 25px;
-    font-family: Poppins, sans-serif;
-    margin-bottom: 5px;
-    padding: 5px 0 0 5px;
-}
-
 #news-container a{
     text-decoration: none;
     color: #3a3a3a;
@@ -173,6 +174,7 @@ h1{
     max-height: inherit;
     max-width: 700px;
     margin-right: 5px;
+    border-radius: 4px;
 }
 
 /* Upcoming videos */
@@ -184,13 +186,6 @@ h1{
     border-bottom: 1px solid gray;
     margin: 10px 2px;
     padding-bottom: 5px;
-}
-
-#upcoming-videos-container h2{
-    font-size: 25px;
-    font-family: Poppins, sans-serif;
-    margin-bottom: 5px;
-    padding: 5px 0 0 5px;
 }
 
 #upcoming-videos-container h3{
