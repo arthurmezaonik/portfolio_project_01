@@ -253,6 +253,10 @@ footer{
     color: red;
 }
 
+.review-text a{
+    text-decoration: none;
+}
+
 .review-text a:hover{
     color: red;
 }
