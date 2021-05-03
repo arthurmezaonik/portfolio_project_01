@@ -10,6 +10,7 @@ body{
     font-size: 25px;
     font-family: Poppins, sans-serif;
     margin-bottom: 5px;
+    margin-top: 5px;
     padding: 5px 0 0 5px;
 }
 
@@ -224,6 +225,7 @@ footer{
 #review-container{
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
+    margin-top: 15px;
 }
 .review{
     display: flex;
@@ -286,3 +288,32 @@ footer{
     margin-top: 2px;
     color: #3a3a3a;
 }
+
+/* Upcoming */
+.month-container{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 5px;
+}
+
+.month-container:first-of-type{
+    margin-top: 15px;
+}
+.month{
+    font-size: 100%;
+    font-weight: bold;
+    margin: 5px 0 10px 0;
+    text-decoration: underline;
+}
+
+.month-container ul{
+    padding: 0 0 0 25px;
+    list-style:circle ;
+
+}
+
+.month-container li{
+   line-height: 20px;
+   padding: 5px 0 5px 0;
+}
+
