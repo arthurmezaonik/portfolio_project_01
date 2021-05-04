@@ -14,7 +14,7 @@ body{
     padding: 5px 0 0 5px;
 }
 
-/* SMARTPHONE (from 375px to 800px wide)*/
+/* SMARTPHONE (from 320px to 599px wide)*/
 /* header */
 #logo>span{
     color: red;
@@ -124,17 +124,15 @@ h1{
 }
 
 /* News */
-#news-container{
+#outer-news-container{
     display:flex;
     width: 100%;
     flex-direction: column;
     border-top: 1px solid gray;
-    border-bottom: 1px solid gray;
-    margin: 2px;
-    padding-bottom: 5px;
+    padding: 2px 2px 7px 2px;
 }
 
-#news-container a{
+#outer-news-container a{
     text-decoration: none;
     color: #3a3a3a;
     text-transform: capitalize;
@@ -143,11 +141,11 @@ h1{
     font-size: 100%;
 }
 
-#news-container a:hover{
+#outer-news-container a:hover{
     color: red;
 }
 
-#news-container p{
+#outer-news-container p{
     font-size: 70%;
     margin-top: 2px;
 }
@@ -179,21 +177,21 @@ h1{
 }
 
 /* Upcoming videos */
-#upcoming-videos-container{
+#outer-upcomingvideos-container{
     display:flex;
     width: 100%;
     flex-direction: column;
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
-    margin: 10px 2px;
-    padding-bottom: 5px;
+    padding: 2px 2px 5px 2px;
 }
 
-#upcoming-videos-container h3{
+#outer-upcomingvideos-container h3{
     text-transform: capitalize;
     font-weight: bold;
     text-align: left;
     font-size: 100%;
+    margin-top: 2px;
 }
 
 .video{
@@ -348,4 +346,22 @@ footer{
 .winner{
     font-weight: bold;
     text-transform: uppercase;
+}
+
+/* TABLET (from 600 to 768px) */
+
+@media screen and (min-width: 600px){
+
+    #news-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    #upcomingvideos-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-bottom: 20px;
+    }
 }
