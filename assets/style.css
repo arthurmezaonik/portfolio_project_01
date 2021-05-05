@@ -293,7 +293,7 @@ footer{
 .month-container{
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
-    padding: 5px;
+    padding: 10px;
 }
 
 .month-container:first-of-type{
@@ -321,7 +321,7 @@ footer{
 .category-container{
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
-    padding: 5px;
+    padding: 10px;
 }
 
 .category-container:first-of-type{
@@ -376,6 +376,9 @@ footer{
     }
 
     /* Review */
+    .review{
+        padding: 0 10px;
+    }
     .review h4{
         display: block;
         font-size: 70%;
@@ -440,5 +443,20 @@ footer{
         margin: 5px 0px;
     }
 
+    /* Review */
+    .game-name {
+        font-size: 120%;
+    }
+    
+    .review-text p{
+        font-size: 100%;
+    }
 
+    .review h4 {
+        font-size: 100%;
+    }
+    
+    .trailer-link{
+        font-size: 100%;
+    }
 }
