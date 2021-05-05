@@ -72,11 +72,11 @@ h1{
 }
 
 .active{
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid red;
 }
 
 .active:hover{
-    border-color: red;
+    border-color: grey;
 }
 
 /* Main image and text */
@@ -126,10 +126,9 @@ h1{
 /* News */
 #outer-news-container{
     display:flex;
-    width: 100%;
     flex-direction: column;
     border-top: 1px solid gray;
-    padding: 2px 2px 7px 2px;
+    padding: 2px 2px 10px 2px;
 }
 
 #outer-news-container a{
@@ -170,8 +169,8 @@ h1{
 .news-img{
     width: 60%;
     height: 100%;
-    max-height: inherit;
-    max-width: 700px;
+    max-height: 196px;
+    max-width: 342px;
     margin-right: 5px;
     border-radius: 4px;
 }
@@ -179,11 +178,10 @@ h1{
 /* Upcoming videos */
 #outer-upcomingvideos-container{
     display:flex;
-    width: 100%;
     flex-direction: column;
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
-    padding: 2px 2px 5px 2px;
+    padding: 2px 2px 10px 2px;
 }
 
 #outer-upcomingvideos-container h3{
@@ -291,7 +289,7 @@ footer{
     color: #3a3a3a;
 }
 
-/* Upcoming */
+/* Upcoming Page*/
 .month-container{
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
@@ -361,13 +359,15 @@ footer{
     }
 
     /* News */ 
-    #news-container{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
+    #outer-news-container{
+        padding: 2px 10px 10px 10px;
     }
 
     /* Upcoming video */
+    #outer-upcomingvideos-container{
+        padding: 2px 10px 10px 10px;
+    }
+
     #upcomingvideos-container{
         display: flex;
         flex-direction: row;
@@ -388,6 +388,10 @@ footer{
 /*DESKTOP (from 769px) */
 @media screen and (min-width:769px) {
 
+    .subtitle{
+        font-size: 200%;
+    }
+
     /*Header*/
     header{
         display:flex;
@@ -406,11 +410,34 @@ footer{
         display: flex;
         flex-direction: row;
         align-items: center;
+        font-size: 120%;
     }
 
     /* Main image and text */
     #main-text{
         font-size: 200%;
+    }
+
+    /* News */
+    #news-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    #outer-news-container a{
+       font-size: 120%;
+    }
+       
+    #outer-news-container p{
+        font-size: 100%;
+        margin-top: 5px;
+    }
+
+    /* Upcoming videos */
+    #outer-upcomingvideos-container h3{
+        font-size: 120%;
+        margin: 5px 0px;
     }
 
 
