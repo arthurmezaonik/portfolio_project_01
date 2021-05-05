@@ -220,16 +220,27 @@ footer{
 }
 
 /* Reviews */
+/*
 #review-container{
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
     margin-top: 15px;
 }
+*/
 .review{
     display: flex;
     height: 100%;
     max-height: 250px;
     margin: 5px 0 5px 0; 
+}
+
+.review:first-of-type{
+    border-top: 1px solid gray;
+    margin-top: 15px;
+}
+
+.review:last-of-type{
+    border-bottom: 1px solid gray;
 }
 
 .review-text{
