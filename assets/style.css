@@ -220,13 +220,6 @@ footer{
 }
 
 /* Reviews */
-/*
-#review-container{
-    border-top: 1px solid gray;
-    border-bottom: 1px solid gray;
-    margin-top: 15px;
-}
-*/
 .review{
     display: flex;
     height: 100%;
@@ -254,6 +247,8 @@ footer{
     height: 100%;
     margin: 5px;
     border-radius: 4px;
+    max-width: 385px;
+    max-height: 220px;
 }
 
 .game-name {
