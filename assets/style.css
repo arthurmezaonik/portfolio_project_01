@@ -459,4 +459,14 @@ footer{
     .trailer-link{
         font-size: 100%;
     }
+
+    /* Upcoming page */
+    .month{
+        font-size: 120%;
+    }
+
+    /* Awards */
+    .category{
+        font-size: 120%;
+    }
 }
