@@ -2,8 +2,8 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    background-color: #d1d1d1;
-    color: #3a3a3a;;
+    background-color: #000000;
+    color: #fff;;
 }
 
 .subtitle{
@@ -17,7 +17,7 @@ body{
 /* SMARTPHONE (from 320px to 599px wide)*/
 /* header */
 #logo>span{
-    color: red;
+    color: #ff0000;
 }
 
 #logo{
@@ -39,14 +39,14 @@ header{
 
 h1{
     font-family: Poppins, sans-serif;
-    color: #3a3a3a;
+    color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 4px;
 }
 
 #menu-bar a{
-    color:#3a3a3a;
+    color:#fff;
     margin: 10px 5px 5px 15px
     ;
 }
@@ -76,7 +76,7 @@ h1{
 }
 
 .active:hover{
-    border-color: grey;
+    border-color: #fff;
 }
 
 /* Main image and text */
@@ -107,7 +107,7 @@ h1{
 
 #main-text{
     display: inline;
-    background-color: rgba(255, 255, 255, .7);
+    background-color: rgba(255, 0, 0, .3);
     position:absolute;
     letter-spacing: 4px;
     font-family: Poppins, sans-serif; 
@@ -127,13 +127,13 @@ h1{
 #outer-news-container{
     display:flex;
     flex-direction: column;
-    border-top: 1px solid gray;
+    border-top: 1px solid #f00;
     padding: 2px 2px 10px 2px;
 }
 
 #outer-news-container a{
     text-decoration: none;
-    color: #3a3a3a;
+    color: #fff;
     text-transform: capitalize;
     font-weight: bold;
     text-align: left;
@@ -141,7 +141,7 @@ h1{
 }
 
 #outer-news-container a:hover{
-    color: red;
+    color: #f00;
 }
 
 #outer-news-container p{
@@ -179,8 +179,8 @@ h1{
 #outer-upcomingvideos-container{
     display:flex;
     flex-direction: column;
-    border-top: 1px solid gray;
-    border-bottom: 1px solid gray;
+    border-top: 1px solid #f00;
+    border-bottom: 1px solid #f00;
     padding: 2px 2px 10px 2px;
 }
 
@@ -214,7 +214,7 @@ footer{
     font-size: 150%;
     margin: 1%;
     padding: 5%;
-    color: #3a3a3a;
+    color: #fff;
 }
 
 /* Reviews */
@@ -226,12 +226,12 @@ footer{
 }
 
 .review:first-of-type{
-    border-top: 1px solid gray;
+    border-top: 1px solid #f00;
     margin-top: 15px;
 }
 
 .review:last-of-type{
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #f00;
 }
 
 .review-text{
@@ -250,7 +250,7 @@ footer{
 }
 
 .game-name {
-    color: #3a3a3a;
+    color: #fff;
     text-transform: capitalize;
     font-weight: bold;
     text-align: left;
@@ -258,15 +258,15 @@ footer{
 }
 
 .game-name:hover{
-    color: red;
+    color: #f00;
 }
 
 .review-text a{
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .review-text a:hover{
-    color: red;
+    color: #f00;
 }
 
 .review-text h4{
@@ -286,13 +286,13 @@ footer{
 .trailer-link{
     font-size: 70%;
     margin-top: 2px;
-    color: #3a3a3a;
+    color: #fff;
 }
 
 /* Upcoming Page*/
 .month-container{
-    border-top: 1px solid gray;
-    border-bottom: 1px solid gray;
+    border-top: 1px solid #f00;
+    border-bottom: 1px solid #f00;
     padding: 10px;
 }
 
@@ -319,8 +319,8 @@ footer{
 
 /* Awards */
 .category-container{
-    border-top: 1px solid gray;
-    border-bottom: 1px solid gray;
+    border-top: 1px solid #f00;
+    border-bottom: 1px solid #f00;
     padding: 10px;
 }
 
