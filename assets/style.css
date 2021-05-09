@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
 
+/* SMARTPHONE (from 320px to 599px wide)*/
 body{
     font-family: 'Open Sans', sans-serif;
     background-color: #000000;
     color: #fff;;
+}
+
+.max-width{
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .subtitle{
@@ -14,7 +20,30 @@ body{
     padding: 5px 0 0 5px;
 }
 
-/* SMARTPHONE (from 320px to 599px wide)*/
+.name{
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: left;
+    font-size: 1em;
+    line-height: 120%;
+}
+
+.name:hover{
+    color:#f00
+}
+
+.info{
+    font-size: 0.7em;
+    line-height: 120%;
+    margin-top: 5px;
+}
+
+.author{
+    font-weight: bold;
+}
+
 /* header */
 #logo>span{
     color: #ff0000;
@@ -83,37 +112,29 @@ h1{
 #main-img-outer{
     max-height: 500px;
     height: 50vw;
-    width: 100%;
-    overflow: hidden;
     position: relative;
     margin: 15px 0;
-    
 }
 
 #main-img{
     height: 50vw;
     width: 100%;
     max-height: 500px;
-    
+    z-index: -1;
 }
 
 #main-text-container{
     width: 100%;
-    height: 100%;
-    position:absolute;
     bottom: 0px;
-    left: 0px;
 }
 
 #main-text{
-    display: inline;
     background-color: rgba(255, 0, 0, .3);
     position:absolute;
     letter-spacing: 4px;
     font-family: Poppins, sans-serif; 
     font-size: 100%;
     bottom: 0;
-    left: 0;
     padding: 5px 10px;
     text-align: center;
     margin: 10px 5px 10px 5px;
@@ -124,38 +145,16 @@ h1{
 }
 
 /* News */
-#outer-news-container{
+#news-container{
     display:flex;
     flex-direction: column;
     border-top: 1px solid #f00;
     padding: 2px 2px 10px 2px;
 }
 
-#outer-news-container a{
-    text-decoration: none;
-    color: #fff;
-    text-transform: capitalize;
-    font-weight: bold;
-    text-align: left;
-    font-size: 100%;
-}
-
-#outer-news-container a:hover{
-    color: #f00;
-}
-
-#outer-news-container p{
-    font-size: 70%;
-    margin-top: 2px;
-}
-
-.news-author{
-    font-weight: bold;
-}
-
 .news{
     display: flex;
-    max-height: 200px;
+    align-items: center;
     margin-top: 10px;
     padding: 0 5px 0 5px;
 }
@@ -176,25 +175,20 @@ h1{
 }
 
 /* Upcoming videos */
-#outer-upcomingvideos-container{
+#videos-container{
     display:flex;
     flex-direction: column;
     border-top: 1px solid #f00;
     border-bottom: 1px solid #f00;
-    padding: 2px 2px 10px 2px;
-}
-
-#outer-upcomingvideos-container h3{
-    text-transform: capitalize;
-    font-weight: bold;
-    text-align: left;
-    font-size: 100%;
-    margin-top: 2px;
+    padding: 5px 10px 5px 10px;
 }
 
 .video{
-    padding: 0 5px 0 5px;
     margin-top: 10px;
+    width: 100%;
+    height: 50vh;
+    border:1px solid rgba(255, 0, 0, 0.3);
+    border-radius: 4px;
 }
 
 /* Footer */
@@ -379,20 +373,24 @@ footer{
     }
 
     /* News */ 
-    #outer-news-container{
+    #news-container{
         padding: 2px 10px 10px 10px;
     }
 
     /* Upcoming video */
-    #outer-upcomingvideos-container{
-        padding: 2px 10px 10px 10px;
-    }
-
-    #upcomingvideos-container{
+    #videos-container{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        padding-bottom: 20px;
+        padding: 2px 10px 30px 10px;
+    }
+
+    #videos-container>div{
+        width: 100%;
+    }
+
+    #videos-container>div:first-of-type{
+        margin-right: 10px;
     }
 
     /* Review */
@@ -413,6 +411,22 @@ footer{
 
     .subtitle{
         font-size: 200%;
+    }
+
+    .name{
+        text-decoration: none;
+        color: #fff;
+        text-transform: capitalize;
+        font-weight: bold;
+        text-align: left;
+        font-size: 1.2em;
+        line-height: 120%;
+    }
+        
+    .info{
+        font-size: 1em;
+        line-height: 120%;
+        margin-top: 5px;
     }
 
     /*Header*/
@@ -446,23 +460,8 @@ footer{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-    }
-
-    #outer-news-container a{
-       font-size: 120%;
-    }
-       
-    #outer-news-container p{
-        font-size: 100%;
-        margin-top: 5px;
-    }
-
-    /* Upcoming videos */
-    #outer-upcomingvideos-container h3{
-        font-size: 120%;
-        margin: 5px 0px;
-    }
-
+    }  
+   
     /* Review */
     .game-name {
         font-size: 120%;
