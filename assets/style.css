@@ -121,6 +121,8 @@ h1{
     width: 100%;
     max-height: 500px;
     z-index: -1;
+    border:1px solid rgba(255, 0, 0, 0.3);
+    border-radius: 4px;
 }
 
 #main-text-container{
@@ -149,7 +151,7 @@ h1{
     display:flex;
     flex-direction: column;
     border-top: 1px solid #f00;
-    padding: 2px 2px 10px 2px;
+    padding: 10px;
 }
 
 .news{
@@ -180,7 +182,7 @@ h1{
     flex-direction: column;
     border-top: 1px solid #f00;
     border-bottom: 1px solid #f00;
-    padding: 5px 10px 5px 10px;
+    padding: 10px;
 }
 
 .video{
@@ -206,8 +208,8 @@ footer{
 
 .social-networks i{
     font-size: 150%;
-    margin: 1%;
-    padding: 5%;
+    margin: 5px;
+    padding: 20px;
     color: #fff;
 }
 
@@ -372,17 +374,11 @@ footer{
         font-size: 150%;
     }
 
-    /* News */ 
-    #news-container{
-        padding: 2px 10px 10px 10px;
-    }
-
     /* Upcoming video */
     #videos-container{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        padding: 2px 10px 30px 10px;
     }
 
     #videos-container>div{
