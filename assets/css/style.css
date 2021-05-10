@@ -284,11 +284,12 @@ h1{
     border-radius: 4px;
 }
 
-/* Footer */
+/* FOOTER */
 footer{
     height: 100px;
 }
 
+/*social links */
 .social-networks{
     text-align: center;
 }
@@ -309,6 +310,10 @@ footer{
     color: #f00;
 }
 
+/*form*/
+
+
+/* back to top link */
 .back-to-top{
     text-align: center;
     text-decoration: none;
