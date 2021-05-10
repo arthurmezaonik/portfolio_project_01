@@ -27,7 +27,7 @@ body{
     font-weight: bold;
     text-align: left;
     font-size: 1em;
-    line-height: 120%;
+    line-height: 130%;
 }
 
 .name:hover{
@@ -36,12 +36,19 @@ body{
 
 .info{
     font-size: 0.7em;
-    line-height: 120%;
+    line-height: 130%;
     margin-top: 5px;
 }
 
 .author{
     font-weight: bold;
+}
+
+.month{
+    font-size: 100%;
+    font-weight: bold;
+    margin: 5px 0 10px 0;
+    text-decoration: underline;
 }
 
 /* header */
@@ -297,6 +304,25 @@ footer{
     color: #fff;
 }
 
+.social-networks a:hover i {
+    transform: rotate(-10deg) scale(1.5);
+    color: #f00;
+}
+
+.back-to-top{
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.back-to-top:hover{
+    color: #f00;
+}
+
+.back-to-top p{
+    margin-bottom: 15px;
+}
+
 /* Reviews */
 .review{
     display: flex;
@@ -329,18 +355,6 @@ footer{
     max-height: 220px;
 }
 
-.game-name {
-    color: #fff;
-    text-transform: capitalize;
-    font-weight: bold;
-    text-align: left;
-    font-size: 100%;
-}
-
-.game-name:hover{
-    color: #f00;
-}
-
 .review-text a{
     text-decoration: underline;
 }
@@ -351,16 +365,6 @@ footer{
 
 .review-text h4{
     display: none;
-}
-
-.review-text p{
-    font-size: 70%;
-    margin-top: 2px;
-    padding: 5px 0 5px 0;
-}
-
-.review-author{
-    font-weight: bold;
 }
 
 .trailer-link{
@@ -378,12 +382,6 @@ footer{
 
 .month-container:first-of-type{
     margin-top: 15px;
-}
-.month{
-    font-size: 100%;
-    font-weight: bold;
-    margin: 5px 0 10px 0;
-    text-decoration: underline;
 }
 
 .month-container ul{
@@ -500,12 +498,12 @@ footer{
         font-weight: bold;
         text-align: left;
         font-size: 1.2em;
-        line-height: 120%;
+        line-height: 130%;
     }
         
     .info{
         font-size: 1em;
-        line-height: 120%;
+        line-height: 130%;
         margin-top: 5px;
     }
 
@@ -514,6 +512,7 @@ footer{
         display:flex;
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
     }
 
     #logo{        
@@ -557,6 +556,11 @@ footer{
         border: none;
     }
 
+    #menu-bar{
+        margin:30px 5px 25px 5px;
+        padding: 15px 15px;
+    }
+
     #menu{
         display: flex;
         position: relative;
@@ -564,8 +568,6 @@ footer{
         top: 0;
         left: 0;
         background-color: #000;
-        margin:30px 5px 25px 5px;
-        padding: 15px 15px;
         font-size: 120%;
         align-items: center;
     }
