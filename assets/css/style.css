@@ -70,7 +70,8 @@ header a{
 
 header{
     height: 150px;
-   
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 h1{
@@ -301,7 +302,7 @@ footer{
 .social-networks i{
     font-size: 150%;
     margin: 5px;
-    padding: 15px 20px 5px 20px;
+    padding: 15px 20px 10px 20px;
     color: #fff;
 }
 
