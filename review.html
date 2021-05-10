@@ -7,29 +7,43 @@
     <meta name="description" content="News, reviews, and upcoming games for all plataforms">
     <meta name="keywords" content="games, playstation, xbox, nintendo, pc, news, reviews">
     <title>Games - Reviews</title>
-    <link rel="stylesheet" href="assets/reset.css">
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <header>
         <a href="index.html">
             <h1 id="logo">G<span>a</span>mes</h1>
         </a>
+
         <nav id="menu-bar">
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="review.html" class="active">Review</a>
-                </li>
-                <li>
-                    <a href="upcoming.html">Upcoming</a>
-                </li>
-                <li>
-                    <a href="awards.html">Awards</a>
-                </li>
-            </ul>
+            <div id="menuToggle">
+                <!-- hidden checkbox is used as click reciever, so you can use the :checked selector on it. -->
+                <input type="checkbox" name="toggle">
+                <label for="toggle">
+                    <span>menu</span>
+                    <!--divs to be styled as a hamburger button-->
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </label>
+
+                <!--the menu that will slide in from the left-->
+                <ul id="menu">
+                    <a href="awards.html">
+                        <li>Awards</li>
+                    </a>
+                    <a href="upcoming.html">
+                        <li>Upcoming</li>
+                    </a>
+                    <a href="review.html" class="active">
+                        <li>Review</li>
+                    </a>
+                    <a href="index.html" >
+                        <li>Home</li>
+                    </a>                   
+                </ul>
+            </div>
         </nav>
     </header>
     
