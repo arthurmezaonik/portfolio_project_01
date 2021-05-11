@@ -11,6 +11,9 @@ body{
     max-width: 1440px;
     margin: 0 auto;
 }
+.position{
+    margin-top: 170px;
+}
 
 .subtitle{
     font-size: 25px;
@@ -30,7 +33,7 @@ body{
     line-height: 130%;
 }
 
-.name:hover{
+a.name:hover{
     color:#f00
 }
 
@@ -70,8 +73,15 @@ header a{
 
 header{
     height: 150px;
-    max-width: 1600px;
+    width: 100%;
     margin: 0 auto;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    background-color: #000;
+    z-index: 10;
+    border-bottom: 1px solid #FFF;
+
 }
 
 h1{
