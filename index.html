@@ -13,10 +13,12 @@
 </head>
 <body>
     <header>
+        <!-- logo -->
         <a href="index.html">
             <h1 id="logo">G<span>a</span>mes</h1>
         </a>
 
+        <!-- navigation bar -->
         <nav id="menu-bar">
             <div id="menuToggle">
                 <!-- hidden checkbox is used as click reciever, so you can use the :checked selector on it. -->
@@ -28,7 +30,6 @@
                     <div></div>
                     <div></div>
                 </label>
-
                 <!--the menu that will slide in from the left-->
                 <ul id="menu">
                     <a href="awards.html">
@@ -47,12 +48,11 @@
             </div>
         </nav>
     </header>
-    
-    <div class="max-width position">
-
-        <!--Main image and text section-->
+    <!-- main content -->
+    <main class="max-width start-position">
+        <!-- main image and text section -->
         <section id="main-img-outer">
-            <div >
+            <div>
                 <img src="assets/images/home/main-image.jpg" 
                 alt="Image of controls for each console (Playstation, Xbox, Nintendo and PC)" id="main-img">
             </div>
@@ -60,37 +60,42 @@
                 <h2 id="main-text">Here it's all about G<span>A</span>MES</h2>
             </div>
         </section>
-
-        <!--News section-->
+        <!-- news section -->
         <article>
             <h2 class="subtitle">News</h2>
             <div id="news-container">
                 <div class="news">
                     <img src="assets/images/home/news1r1.jpg" alt="Red Dead Redemption 2 image" class="news-img">
                     <div class="news-text">
-                        <a href="https://www.bbc.co.uk/news/technology-45940734" class="name" target="_blank" aria-label="Go to news webpage (opens in a new page)">
-                            <h3>Five things to know about Red Dead Redemption 2</h3>
-                        </a>
-                        <p class="author info">By Zoe Kleinman</p>
-                        <p class="info">BBC News</p>
-                        <p class="info">Published 22 October 2018</p>
+                        <h3 class="name">Five things to know about Red Dead Redemption 2</h3>
+                        <p class="author info">Zoe Kleinman | BBC News | 22 Oct 2018</p>
+                        <blockquote cite="https://www.bbc.co.uk/news/technology-45940734">
+                            <p class=info>The hotly anticipated game Red Dead Redemption 2 is due for release on Friday.... 
+                                <a href="https://www.bbc.co.uk/news/technology-45940734" target="_blank" aria-label="Go to news webpage (opens in a new page)">
+                                    read more
+                                </a>
+                            </p>
+                        </blockquote>
                     </div>
                 </div>
                 <div class="news">
                     <img src="assets/images/home/news2.jpg" alt="Fortinite image" class="news-img">
                     <div class="news-text">
-                        <a href="https://www.bbc.co.uk/news/entertainment-arts-45821530" class="name" target="_blank" aria-label="Go to news webpage (opens in a new page)">
-                            <h3>Should Fortnite credit dances used in the game?</h3>
-                        </a>
-                        <p class="author info">By Kash Jones</p>
-                        <p class="info">BBC News</p>
-                        <p class="info">Published 1 November 2018</p>
+                        <h3 class="name">Should Fortnite credit dances used in the game?</h3>
+                        <p class="author info">Kash Jones | BBC News | 1 Nov 2018</p>
+                        <blockquote cite="https://www.bbc.co.uk/news/entertainment-arts-45821530">
+                            <p class="info">Fortnite attracts millions of fans worldwide, including the likes of Drake, Travis Scott and Joe Jonas... 
+                                <a href="https://www.bbc.co.uk/news/entertainment-arts-45821530" target="_blank" aria-label="Go to news webpage (opens in a new page)">
+                                    read more
+                                </a>
+                            </p>
+
+                        </blockquote>
                     </div>
                 </div>
             </div>        
         </article>
-
-        <!--Video section-->
+        <!-- video section -->
         <article>
             <h2 class="subtitle">Upcoming Games</h2>
             <div id="videos-container">
@@ -104,8 +109,8 @@
                 </div>
             </div>
         </article>
-    </div>
-
+    </main>
+    <!-- footer-->
     <footer>
         <ul class="social-networks">
             <li>
@@ -125,7 +130,7 @@
                 aria-label="Visit our Youtube page (open in a new tab)"><i class="fab fa-youtube-square"></i></a>
             </li>
         </ul>
-
+        <!-- newsletter form -->
         <form action="https://formdump.codeinstitute.net/" method="post" target="_blank">
             <fieldset>
                 <legend>Receive our newsletter:</legend>
@@ -142,7 +147,7 @@
                 </div>
             </fieldset>
         </form>
-
+        <!-- back to top button -->
         <a href="index.html" class="back-to-top"><p>Back to top</p></a>
     </footer>
     
