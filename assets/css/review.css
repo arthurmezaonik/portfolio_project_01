@@ -1,0 +1,83 @@
+/* Reviews */
+.review{
+    display: flex;
+    height: 100%;
+    max-height: 250px;
+    margin: 5px 0 5px 0; 
+}
+
+.review:first-of-type{
+    border-top: 1px solid #f00;
+    margin-top: 15px;
+}
+
+.review:last-of-type{
+    border-bottom: 1px solid #f00;
+}
+
+.review-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.review-img{
+    width: 50%;
+    height: 100%;
+    margin: 5px;
+    border-radius: 4px;
+    max-width: 385px;
+    max-height: 220px;
+}
+
+.review-text a{
+    text-decoration: underline;
+}
+
+.review-text a:hover{
+    color: #f00;
+}
+
+.review-text h4{
+    display: none;
+}
+
+.trailer-link{
+    font-size: 70%;
+    margin-top: 2px;
+    color: #fff;
+}
+
+/* TABLET (from 600 to 768px) */
+@media screen and (min-width: 600px){
+     /* Review */
+    .review{
+       padding: 0 10px;
+    }
+    .review h4{
+        display: block;
+        font-size: 70%;
+        margin-top: 2px;
+        padding: 5px 0;
+    }
+}
+
+/*DESKTOP (from 769px) */
+@media screen and (min-width:769px) {
+    /* Review */
+    .game-name {
+        font-size: 120%;
+    }
+    
+    .review-text p{
+        font-size: 100%;
+    }
+
+    .review h4 {
+        font-size: 100%;
+    }
+    
+    .trailer-link{
+        font-size: 100%;
+    }
+}

@@ -1,0 +1,36 @@
+/* Upcoming Page*/
+.month-container{
+    border-top: 1px solid #f00;
+    border-bottom: 1px solid #f00;
+    padding: 10px;
+}
+
+.month-container:first-of-type{
+    margin-top: 15px;
+}
+
+.month-container ul{
+    padding: 0 0 0 25px;
+    list-style:circle ;
+
+}
+
+.month-container li{
+   line-height: 20px;
+   padding: 5px 0 5px 0;
+}
+
+.break-img{
+    height: 50vw;
+    width: 100%;
+    max-height: 500px;
+    
+}
+
+/*DESKTOP (from 769px) */
+@media screen and (min-width:769px) {
+    /* Upcoming page */
+    .month{
+        font-size: 120%;
+    }
+}

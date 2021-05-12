@@ -1,0 +1,52 @@
+/* Awards */
+.trophy{
+    position: fixed;
+    z-index: -1;
+    opacity: .3;
+    top:25vh
+}
+
+.trophy-outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.category-container{
+    border-top: 1px solid #f00;
+    border-bottom: 1px solid #f00;
+    padding: 10px;
+}
+
+.category-container:first-of-type{
+    margin-top: 15px;
+}
+.category{
+    font-size: 100%;
+    font-weight: bold;
+    margin: 5px 0 10px 0;
+    text-decoration: underline;
+}
+
+.category-container ul{
+    padding: 0 0 0 25px;
+    list-style:circle ;
+
+}
+
+.category-container li{
+   line-height: 20px;
+   padding: 5px 0 5px 0;
+}
+
+.winner{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/*DESKTOP (from 769px) */
+@media screen and (min-width:769px) {
+    .category{
+        font-size: 120%;
+    }
+}
