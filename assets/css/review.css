@@ -9,6 +9,7 @@
 .review:first-of-type{
     border-top: 1px solid #f00;
     margin-top: 15px;
+    padding-top: 10px;
 }
 
 .review:last-of-type{
@@ -18,7 +19,7 @@
 .review-text{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .review-img{
@@ -28,18 +29,7 @@
     border-radius: 4px;
     max-width: 385px;
     max-height: 220px;
-}
-
-.review-text a{
-    text-decoration: underline;
-}
-
-.review-text a:hover{
-    color: #f00;
-}
-
-.review-text h4{
-    display: none;
+    border:1px solid rgba(255, 0, 0, 0.3);
 }
 
 .trailer-link{
@@ -48,35 +38,72 @@
     color: #fff;
 }
 
+blockquote{
+    display: none;
+}
+
+.yt_button {
+	box-shadow: 3px 4px 0px 0px #4f3d3d;
+	background:linear-gradient(to bottom, #ff7a7a 5%, #e33939 100%);
+	background-color:#ff7a7a;
+	border-radius:5px;
+	border:1px solid #c23434;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:12px 44px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #cc5454;
+}
+.yt_button:hover {
+	background:linear-gradient(to bottom, #e33939 5%, #ff7a7a 100%);
+	background-color:#e33939;
+}
+.yt_button:active {
+	position:relative;
+	top:1px;
+}
+
 /* TABLET (from 600 to 768px) */
 @media screen and (min-width: 600px){
      /* Review */
     .review{
        padding: 0 10px;
     }
-    .review h4{
+    
+    blockquote{
         display: block;
-        font-size: 70%;
-        margin-top: 2px;
-        padding: 5px 0;
+        text-align: justify;
+        margin-top: 10px;
+        text-indent: 0.45em;
+    }
+
+    blockquote a{
+        color: #4f43f7;
+    }
+
+    blockquote p::before {
+        content: '\201C';
+        font-size: 2.5em;
+        color:rgba(255, 0, 0, 0.5);
+        vertical-align: -0.4em;
+    }
+    
+    blockquote p::after {
+        content: '\201D';
+        font-size: 2.5em;
+        color:rgba(255, 0, 0, 0.5);
+        line-height: .8em;
+        vertical-align: -0.4em;
     }
 }
 
 /*DESKTOP (from 769px) */
 @media screen and (min-width:769px) {
     /* Review */
-    .game-name {
-        font-size: 120%;
-    }
-    
-    .review-text p{
-        font-size: 100%;
-    }
-
-    .review h4 {
-        font-size: 100%;
-    }
-    
     .trailer-link{
         font-size: 100%;
     }

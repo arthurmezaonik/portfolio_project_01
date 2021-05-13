@@ -66,6 +66,7 @@
     max-width: 342px;
     margin-right: 5px;
     border-radius: 4px;
+    border:1px solid rgba(255, 0, 0, 0.3);
 }
 
 blockquote{

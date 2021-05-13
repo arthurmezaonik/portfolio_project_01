@@ -269,12 +269,12 @@ input[type=email]{
     border: 1px solid red;
     background-color:rgba(255, 0, 0, 0.3);
     display: inline-block;
-    margin: 5px 10px;
+    margin: 5px 10px 5px 2px;
 }
 
 #form_label{
     color: #fff;
-    margin: 10px;
+    margin: 0 0 0 10px;
 }
 /* back to top link */
 .back-to-top{
@@ -319,8 +319,7 @@ input[type=email]{
     }
 
     .name{
-        text-decoration: none;
-        
+        text-decoration: none;        
         text-transform: capitalize;
         font-weight: bold;
         text-align: left;
