@@ -132,25 +132,15 @@
         </ul>
         <!-- newsletter form -->
         <form action="https://formdump.codeinstitute.net/" method="post" target="_blank">
-            <fieldset>
-                <legend>Receive our newsletter:</legend>
-                <div class="flex">
-                    <div>
-                        <label for="fname">Full Name</label>
-                        <input type="text" id="fname" name="fname" required>
-                    </div>
-                    <div>
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <input type="submit">
-                </div>
-            </fieldset>
+            <div>
+                <label for="email" id="form_label">Email is required*</label>
+                <input type="email" name="email" id="email" placeholder="Receive Our Newsletter" required>
+            </div>
+            <input type="submit" value="Sing Up!" name="sign_up" id="sign_up">
         </form>
         <!-- back to top button -->
         <a href="index.html" class="back-to-top"><p>Back to top</p></a>
-    </footer>
-    
+    </footer>    
     <!-- Font awesome script -->
     <script src="https://kit.fontawesome.com/8968e8b0bc.js" crossorigin="anonymous"></script>
 </body>

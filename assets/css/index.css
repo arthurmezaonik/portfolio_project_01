@@ -101,6 +101,7 @@ blockquote{
         display: block;
         text-align: justify;
         margin-top: 10px;
+        text-indent: 0.45em;
     }
 
     blockquote a{
@@ -111,6 +112,7 @@ blockquote{
         content: '\201C';
         font-size: 2.5em;
         color:rgba(255, 0, 0, 0.5);
+        vertical-align: -0.4em;
     }
     
     blockquote p::after {
@@ -118,6 +120,7 @@ blockquote{
         font-size: 2.5em;
         color:rgba(255, 0, 0, 0.5);
         line-height: .8em;
+        vertical-align: -0.4em;
 
     }
 
