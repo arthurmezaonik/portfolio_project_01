@@ -3,7 +3,8 @@
     display: flex;
     height: 100%;
     max-height: 250px;
-    margin: 5px 0 5px 0; 
+    margin: 25px 0 25px 0;
+    align-items: center;
 }
 
 .review:first-of-type{
@@ -14,12 +15,14 @@
 
 .review:last-of-type{
     border-bottom: 1px solid #f00;
+    padding-bottom: 10px;
 }
 
 .review-text{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
 }
 
 .review-img{
@@ -32,10 +35,8 @@
     border:1px solid rgba(255, 0, 0, 0.3);
 }
 
-.trailer-link{
-    font-size: 70%;
-    margin-top: 2px;
-    color: #fff;
+.score_container{
+    display: none;
 }
 
 blockquote{
@@ -51,13 +52,14 @@ blockquote{
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:Arial;
-	font-size:17px;
+	font-size:1em;
 	font-weight:bold;
-	padding:12px 44px;
+	margin-top:5px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #cc5454;
+    width: 140px;
 }
+
 .yt_button:hover {
 	background:linear-gradient(to bottom, #e33939 5%, #ff7a7a 100%);
 	background-color:#e33939;
@@ -69,7 +71,6 @@ blockquote{
 
 /* TABLET (from 600 to 768px) */
 @media screen and (min-width: 600px){
-     /* Review */
     .review{
        padding: 0 10px;
     }
@@ -101,10 +102,62 @@ blockquote{
     }
 }
 
-/*DESKTOP (from 769px) */
-@media screen and (min-width:769px) {
-    /* Review */
-    .trailer-link{
-        font-size: 100%;
+/*DESKTOP (from 1440px) */
+@media screen and (min-width:1440px) {
+    .review-text{
+        width: 60%;
     }
+    
+    .score_container{
+        display: block;
+        margin: -5px 50px 50px 50px;
+        text-align: center;
+    }
+
+    .score-label{
+        padding-bottom: 40px;
+        font-size: 1em;
+    }
+
+    .score_num{
+        font-size: 3em;
+        padding-top: 5px;
+    }
+
+    .score_text{
+        margin-top:45px;
+        font-size: 1.5em;
+    }
+
+    #hexagon {
+        width: 100px;
+        height: 57.735px;
+        background: rgba(255, 0, 0, 0.5);
+        position: relative;
+        z-index: -1;
+      }
+
+      #hexagon::before {
+        content: "";
+        position: absolute;
+        top: -28.8675px;
+        left: 0;
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 28.8675px solid rgba(255, 0, 0, 0.5);
+      }
+
+      #hexagon::after {
+        content: "";
+        position: absolute;
+        bottom: -28.8675px;
+        left: 0;
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-top: 28.8675px solid rgba(255, 0, 0, 0.5);
+      }
 }
