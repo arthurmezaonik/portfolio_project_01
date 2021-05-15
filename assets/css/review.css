@@ -43,7 +43,7 @@ blockquote{
     display: none;
 }
 
-.yt_button {
+.yt-button {
 	box-shadow: 3px 4px 0px 0px #4f3d3d;
 	background:linear-gradient(to bottom, #ff7a7a 5%, #e33939 100%);
 	background-color:#ff7a7a;
@@ -60,13 +60,17 @@ blockquote{
     width: 140px;
 }
 
-.yt_button:hover {
+.yt-button:hover {
 	background:linear-gradient(to bottom, #e33939 5%, #ff7a7a 100%);
 	background-color:#e33939;
 }
-.yt_button:active {
+.yt-button:active {
 	position:relative;
 	top:1px;
+}
+
+.yt-button a{
+    text-decoration: none;
 }
 
 /* TABLET (from 600 to 768px) */
