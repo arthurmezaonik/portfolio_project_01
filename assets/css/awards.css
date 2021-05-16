@@ -9,6 +9,12 @@
     margin-top: 15px;
 }
 
+.category-container-inner{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .category{
     font-size: 100%;
     font-weight: bold;
@@ -16,14 +22,8 @@
     text-decoration: underline;
 }
 
-.category-container-inner{
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-}
-
 .game-container{
-    width: 15%;
+    width: 215px;
     display: flex;
     flex-direction: column;
 }
