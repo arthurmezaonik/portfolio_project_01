@@ -73,6 +73,15 @@ blockquote{
     text-decoration: none;
 }
 
+.mobile{
+    font-size: 0.85em;
+    padding-top: 2px;
+    color: #4f43f7;
+}
+
+.mobile:hover{
+    color:red;
+}
 /* TABLET (from 600 to 768px) */
 @media screen and (min-width: 600px){
     .review{
@@ -90,6 +99,10 @@ blockquote{
         color: #4f43f7;
     }
 
+    blockquote a:hover{
+        color: red;
+    }
+
     blockquote p::before {
         content: '\201C';
         font-size: 2.5em;
@@ -103,6 +116,10 @@ blockquote{
         color:rgba(255, 0, 0, 0.5);
         line-height: .8em;
         vertical-align: -0.4em;
+    }
+
+    .mobile{
+        display:none;
     }
 }
 
