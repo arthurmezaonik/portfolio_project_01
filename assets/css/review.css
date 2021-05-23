@@ -43,7 +43,7 @@ blockquote{
     display: none;
 }
 
-.yt-button {
+.button {
 	box-shadow: 3px 4px 0px 0px #4f3d3d;
 	background:linear-gradient(to bottom, #ff7a7a 5%, #e33939 100%);
 	background-color:#ff7a7a;
@@ -52,25 +52,30 @@ blockquote{
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-size:1em;
+	font-size:.8em;
 	font-weight:bold;
 	margin-top:5px;
+    margin-right: 5px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #cc5454;
     width: 140px;
+    box-sizing: border-box;
 }
 
-.yt-button:hover {
+.button:hover {
 	background:linear-gradient(to bottom, #e33939 5%, #ff7a7a 100%);
 	background-color:#e33939;
 }
-.yt-button:active {
+.button:active {
 	position:relative;
 	top:1px;
 }
 
-.yt-button a{
+.trailer-link{
     text-decoration: none;
+    color: #fff;
+    text-align: center;
+    padding: 10px 15px;
 }
 
 .mobile{
