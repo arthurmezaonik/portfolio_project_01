@@ -23,6 +23,7 @@
     flex-direction: column;
     justify-content: center;
     width: 100%;
+    margin: 0 5px 0 15px;
 }
 
 .review-img{
@@ -81,7 +82,7 @@ blockquote{
 .mobile{
     font-size: 0.85em;
     padding-top: 2px;
-    color: #4f43f7;
+    color: #0000ab;
 }
 
 .mobile:hover{
@@ -101,7 +102,7 @@ blockquote{
     }
 
     blockquote a{
-        color: #4f43f7;
+        color: #0000ab;
     }
 
     blockquote a:hover{
@@ -110,17 +111,17 @@ blockquote{
 
     blockquote p::before {
         content: '\201C';
-        font-size: 2.5em;
+        font-size: 2em;
         color:rgba(255, 0, 0, 0.5);
-        vertical-align: -0.4em;
+        vertical-align: -0.2em;
     }
     
     blockquote p::after {
         content: '\201D';
-        font-size: 2.5em;
+        font-size: 2em;
         color:rgba(255, 0, 0, 0.5);
         line-height: .8em;
-        vertical-align: -0.4em;
+        vertical-align: -0.2em;
     }
 
     .mobile{
