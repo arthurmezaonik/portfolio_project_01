@@ -107,6 +107,7 @@ blockquote{
 
     blockquote a{
         color: #0000ab;
+        font-style: italic;
     }
 
     blockquote p::before {

@@ -59,7 +59,9 @@ blockquote{
     margin-right: 5px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #cc5454;
-    width: 140px;
+    width: 50%;
+    min-width: 123px;
+    max-width: 250px;
     box-sizing: border-box;
 }
 
@@ -88,6 +90,13 @@ blockquote{
 .mobile:hover{
     color:red;
 }
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 0.75), rgba(255, 0, 0, 0));
+}
+
 /* TABLET (from 600 to 768px) */
 @media screen and (min-width: 600px){
     .review{
@@ -103,6 +112,7 @@ blockquote{
 
     blockquote a{
         color: #0000ab;
+        font-style: italic;
     }
 
     blockquote a:hover{
