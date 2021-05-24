@@ -300,16 +300,16 @@ input[type=email]{
     color: #f00;
 }
 
-/* TABLET (from 600 to 768px) */
-@media screen and (min-width: 600px){
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px){
     /*footer*/
     form{
         flex-direction: row;
     }
 }
 
-/*DESKTOP (from 769px) */
-@media screen and (min-width:769px) {
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width:768px) {
     .subtitle{
         font-size: 200%;
     }
@@ -327,7 +327,10 @@ input[type=email]{
         font-size: 1em;
         margin-top: 5px;
     }
+}
 
+/* Specific media querie for header */
+@media screen and (min-width:930px) {
     /*Header*/
     header{
         display:flex;

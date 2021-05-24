@@ -90,8 +90,8 @@ blockquote{
     border-radius: 4px;
 }
 
-/* TABLET (from 600 to 768px) */
-@media screen and (min-width: 600px){
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px){
      /* Main image and text */
      #main-text{
         font-size: 150%;
@@ -147,16 +147,16 @@ blockquote{
     }
 }
 
-/*DESKTOP (from 769px to 1024px) */
-@media screen and (min-width:769px) {
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width:768px) {
    /* Main image and text */
    #main-text{
     font-size: 200%;
     }
 }
 
-/*DESKTOP (from 1025px) */
-@media screen and (min-width:1025px){
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width:992px){
     /* News */
     #news-container{
         display: flex;
