@@ -14,6 +14,7 @@
     border:1px solid rgba(255, 0, 0, 0.3);
     border-radius: 4px;
     box-sizing: border-box;
+    object-fit: cover;
 }
 
 #main-text-container{
@@ -49,7 +50,7 @@
 .news{
     display: flex;
     align-items: center;
-    margin-top: 10px;
+    margin: 10px 0;
     padding: 0 5px 0 5px;
 }
 
@@ -71,6 +72,16 @@
 
 blockquote{
     display: none;
+}
+
+.mobile{
+    font-size: 0.85em;
+    padding-top: 2px;
+    color: #0000ab;
+}
+
+.mobile:hover{
+    color:red;
 }
 
 /* Upcoming videos */
@@ -129,6 +140,10 @@ blockquote{
     /*News*/
     .news-text{
         margin: 0 5px 0 15px;
+    }
+
+    .mobile{
+        display: none;
     }
 
     /* Upcoming video */
