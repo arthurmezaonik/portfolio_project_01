@@ -167,7 +167,7 @@ hr {
         font-size: 1.5em;
     }
 
-    #hexagon {
+    .hexagon {
         width: 100px;
         height: 57.735px;
         background: rgba(255, 0, 0, 0.5);
@@ -175,7 +175,7 @@ hr {
         z-index: -1;
       }
 
-      #hexagon::before {
+      .hexagon::before {
         content: "";
         position: absolute;
         top: -28.8675px;
@@ -187,7 +187,7 @@ hr {
         border-bottom: 28.8675px solid rgba(255, 0, 0, 0.5);
       }
 
-      #hexagon::after {
+      .hexagon::after {
         content: "";
         position: absolute;
         bottom: -28.8675px;
