@@ -129,7 +129,7 @@ h4.name{
     text-decoration: underline;
 }
 
-/* Specific media querie for page style */
+/* Small devices (landscape phones, 576px and up) */
 @media screen and (min-width:576px) {
     .game-container{
         width: 25%;
@@ -140,7 +140,7 @@ h4.name{
     }
 }
 
-/* Specific media querie for page style */
+/* Medium devices (tablets, 768px and up) */
 @media screen and (min-width:768px) {
     .game-img{
         object-position: 0 0;
