@@ -42,7 +42,7 @@ The images on the awards page represent the games disputing the award.
 
 * Navigation Bar
 
- ![Navigation bar desktop](assets/images/readme/navbar_desktop.png)
+    ![Navigation bar desktop](assets/images/readme/navbar_desktop.png)
 
     * Featured on all pages, the navigation bar includes the Logo, Home page, Reviews, Upcoming and Awards page.
 
