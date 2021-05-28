@@ -124,13 +124,13 @@ The images on the awards page represent the games disputing the award.
 
 * Home Page (desktop)
 
-    ![Home page lighthouse test](assets/images/readme/lighthouse_homepage_desktop.png)
+    ![Home page lighthouse test](assets/images/readme/lighthouse_homepage_desktop.PNG)
     
     * Trust ans Safety: Solved by addind the rel attribute in the anchor tags
 
 * Home Page (mobile)
 
-    ![Home page lighthouse test](assets/images/readme/lighthouse_homepage_mobile.png)
+    ![Home page lighthouse test](assets/images/readme/lighthouse_homepage_mobile.PNG)
 
     * Names and labels: not solved
 
@@ -138,19 +138,19 @@ The images on the awards page represent the games disputing the award.
 
 * Reviews Page
 
-    ![Reviews page lighthouse test](assets/images/readme/lighthouse-reviews-desktop.png)
+    ![Reviews page lighthouse test](assets/images/readme/lighthouse-reviews-desktop.PNG)
 
     * Tables and lists: Solved by changing the nest relation from a > li to li > a (nav bar)
 
 * Upcoming Page
 
-    ![Upcoming page lighthouse test](assets/images/readme/lighthouse-upcoming-desktop.png)
+    ![Upcoming page lighthouse test](assets/images/readme/lighthouse-upcoming-desktop.PNG)
 
     * Tables and lists: Solved by changing the nest relation from a > li to li > a (nav bar)
 
 * Awards Page
 
-    ![Awards page lighthouse test](assets/images/readme/lighthouse-awards-desktop.png)
+    ![Awards page lighthouse test](assets/images/readme/lighthouse-awards-desktop.PNG)
 
     * Tables and lists: Solved by changing the nest relation from a > li to li > a (nav bar)
 
