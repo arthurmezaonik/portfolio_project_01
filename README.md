@@ -50,7 +50,7 @@ The images on the awards page represent the games disputing the award.
 
     * It adjusts itself from different devices (ex: mobile).
 
-![Navigation bar mobile](assets/images/readme/navbar_mobile.png)
+    ![Navigation bar mobile](assets/images/readme/navbar_mobile.png)
 
 * Main Image and Text
 
@@ -60,7 +60,7 @@ The images on the awards page represent the games disputing the award.
 
 * News Section
 
-![News section](assets/images/readme/news.png)
+    ![News section](assets/images/readme/news.png)
 
     * The news section allows the user to have an easy way to check the latest news related to games.
 
@@ -68,7 +68,7 @@ The images on the awards page represent the games disputing the award.
 
 * Upcoming Games Video Section
 
-![Upcoming videos section](assets/images/readme/upcomingvideo.jpg)
+    ![Upcoming videos section](assets/images/readme/upcomingvideo.jpg)
 
     * This section presents to us two trailers from games that will be released in the year, trying to create expectations for the final user.
 
@@ -76,7 +76,7 @@ The images on the awards page represent the games disputing the award.
 
 * Footer
 
-![Footer](assets/images/readme/footer.png)
+    ![Footer](assets/images/readme/footer.png)
 
     * The footer includes links to all relevant social media sites for the Games website. All the links will open in a new tab.
 
@@ -84,7 +84,7 @@ The images on the awards page represent the games disputing the award.
 
 * Review Page
 
-![Review page](assets/images/readme/review.png)
+    ![Review page](assets/images/readme/review.png)
 
     * The review webpage presents for the user some games with a brief summary of the review and a link for the full review. The link will open in a new tab.
 
@@ -92,17 +92,17 @@ The images on the awards page represent the games disputing the award.
 
     * Each game receives a grade.
 
-![Review page](assets/images/readme/review_mobile.png)
+    ![Review page](assets/images/readme/review_mobile.png)
 
 * Upcoming Games Page
 
-![Upcoming page](assets/images/readme/upcoming.jpg)
+    ![Upcoming page](assets/images/readme/upcoming.jpg)
 
     * This webpage presents to the user a list of the months of the year that can be expanded to see which games will be released on that specific month.
 
 * Awards Page
 
-![Awards page](assets/images/readme/awards.jpg)
+    ![Awards page](assets/images/readme/awards.jpg)
 
     * This page will present to the user the last BAFTA game awards list and the winner for each category.
 
@@ -124,13 +124,13 @@ The images on the awards page represent the games disputing the award.
 
 * Home Page (desktop)
 
-![Home page lighthouse test](assets/images/readme/lighthouse_homepage_desktop.png)
+    ![Home page lighthouse test](assets/images/readme/lighthouse_homepage_desktop.png)
     
     * Trust ans Safety: Solved by addind the rel attribute in the anchor tags
 
 * Home Page (mobile)
 
-![Home page lighthouse test](assets/images/readme/lighthouse_homepage_mobile.png)
+    ![Home page lighthouse test](assets/images/readme/lighthouse_homepage_mobile.png)
 
     * Names and labels: not solved
 
@@ -138,19 +138,19 @@ The images on the awards page represent the games disputing the award.
 
 * Reviews Page
 
-![Reviews page lighthouse test](assets/images/readme/lighthouse-reviews-desktop.png)
+    ![Reviews page lighthouse test](assets/images/readme/lighthouse-reviews-desktop.png)
 
     * Tables and lists: Solved by changing the nest relation from a > li to li > a (nav bar)
 
 * Upcoming Page
 
-![Upcoming page lighthouse test](assets/images/readme/lighthouse-upcoming-desktop.png)
+    ![Upcoming page lighthouse test](assets/images/readme/lighthouse-upcoming-desktop.png)
 
     * Tables and lists: Solved by changing the nest relation from a > li to li > a (nav bar)
 
 * Awards Page
 
-![Awards page lighthouse test](assets/images/readme/lighthouse-awards-desktop.png)
+    ![Awards page lighthouse test](assets/images/readme/lighthouse-awards-desktop.png)
 
     * Tables and lists: Solved by changing the nest relation from a > li to li > a (nav bar)
 
