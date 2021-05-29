@@ -34,7 +34,33 @@ The images on the awards page represent the games disputing the award.
 
 ### Wireframes
 
-[PDF Wireframes](assets/wireframes.pdf)
+* Home Page
+
+    * [Desktop](assets/images/wireframe/home_wireframe.PNG)
+
+    * [Tablet](assets/images/wireframe/home_tablet_wireframe.PNG)
+
+    * [Mobile](assets/images/wireframe/home_mobile_wireframe.PNG)
+
+* Reviews Page
+
+    * [Desktop](assets/images/wireframe/reviews_wireframe.PNG)
+
+    * [Tablet amd Mobile](assets/images/wireframe/reviews_tabletmoile_wireframe.PNG)
+
+* Upcoming Games Page
+
+    * [Desktop](assets/images/wireframe/upcoming_wireframes.PNG)
+
+    * [Tablet amd Mobile](assets/images/wireframe/upcoming_mobiletablet_wireframe.PNG)
+
+* Awards Page
+
+    * [Desktop](assets/images/wireframe/awards_wireframes.PNG)
+
+    * [Tablet amd Mobile](assets/images/wireframe/awards_mobiletablet_wireframe.PNG)
+
+
 
 ## Features
 
@@ -124,13 +150,13 @@ The images on the awards page represent the games disputing the award.
 
 * Home Page (desktop)
 
-    ![Home page lighthouse test](assets/images/readme/lighthouse_homepage_desktop.png)
+    ![Home page lighthouse test](assets\images\readme\lighthouse_homepage_desktop.PNG)
     
     * Trust ans Safety: Solved by addind the rel attribute in the anchor tags
 
 * Home Page (mobile)
 
-    ![Home page lighthouse test](assets/images/readme/lighthouse_homepage_mobile.png)
+    ![Home page lighthouse test](assets\images\readme\lighthouse_homepage_mobile.PNG)
 
     * Names and labels: not solved
 
@@ -138,19 +164,19 @@ The images on the awards page represent the games disputing the award.
 
 * Reviews Page
 
-    ![Reviews page lighthouse test](assets/images/readme/lighthouse-reviews-desktop.png)
+    ![Reviews page lighthouse test](assets\images\readme\lighthouse-reviews-desktop.PNG)
 
     * Tables and lists: Solved by changing the nest relation from a > li to li > a (nav bar)
 
 * Upcoming Page
 
-    ![Upcoming page lighthouse test](assets/images/readme/lighthouse-upcoming-desktop.png)
+    ![Upcoming page lighthouse test](assets\images\readme\lighthouse-upcoming-desktop.PNG)
 
     * Tables and lists: Solved by changing the nest relation from a > li to li > a (nav bar)
 
 * Awards Page
 
-    ![Awards page lighthouse test](assets/images/readme/lighthouse-awards-desktop.png)
+    ![Awards page lighthouse test](assets\images\readme\lighthouse-awards-desktop.PNG)
 
     * Tables and lists: Solved by changing the nest relation from a > li to li > a (nav bar)
 
