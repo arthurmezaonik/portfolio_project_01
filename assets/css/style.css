@@ -131,7 +131,7 @@ header{
 }
 
 /* Hamburger layout */
-#menuToggle label div {
+#menuToggle .hamburger_button {
     display: block;
     width: 30px;
     height: 2px;
@@ -148,20 +148,20 @@ header{
     transition: all 0.3s ease;
 }
 
-#menuToggle label div:first-child {
+#menuToggle .hamburger_button:first-child {
     -webkit-transform-origin: 0% 100%;
     -ms-transform-origin: 0% 100%;
     transform-origin: 0% 100%;
 }
   
-#menuToggle label div:nth-child(2) {
+#menuToggle .hamburger_button:nth-child(2) {
     -webkit-transform-origin: 0% 0%;
     -ms-transform-origin: 0% 0%;
     transform-origin: 0% 0%;
 }
 
 /* Change the color of the hamburger when toggled */
-#menuToggle input:checked + label div {
+#menuToggle input:checked + .hamburger_button {
     background: #000;
 }
 
