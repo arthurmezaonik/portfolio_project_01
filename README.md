@@ -145,8 +145,10 @@ The images on the awards page represent the games disputing the award.
 * HTML Validator
 
     * [All Pages](assets/images/readme/html_test_allpages.PNG)
+        * Changed __div__ to __span__ and add __class__ = "hamburger button"
 
     * [Home Page](assets/images/readme/html_test_homepage.PNG)
+        * Removed all text from __iframes__
 
 ### Lighthouse Test
 
