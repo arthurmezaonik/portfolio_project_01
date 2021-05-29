@@ -60,8 +60,6 @@ The images on the awards page represent the games disputing the award.
 
     * [Tablet amd Mobile](assets/images/wireframe/awards_mobiletablet_wireframe.PNG)
 
-
-
 ## Features
 
 ### Implemented Features
@@ -146,17 +144,21 @@ The images on the awards page represent the games disputing the award.
 
 * HTML Validator
 
+    * [All Pages](assets/images/readme/html_test_allpages.PNG)
+
+    * [Home Page](assets/images/readme/html_test_homepage.PNG)
+
 ### Lighthouse Test
 
 * Home Page (desktop)
 
-    ![Home page lighthouse test](assets\images\readme\lighthouse_homepage_desktop.PNG)
+    ![Home page lighthouse test](assets/images/readme/lighthouse_homepage_desktop.PNG)
     
     * Trust ans Safety: Solved by addind the rel attribute in the anchor tags
 
 * Home Page (mobile)
 
-    ![Home page lighthouse test](assets\images\readme\lighthouse_homepage_mobile.PNG)
+    ![Home page lighthouse test](assets/images/readme/lighthouse_homepage_mobile.PNG)
 
     * Names and labels: not solved
 
@@ -164,19 +166,21 @@ The images on the awards page represent the games disputing the award.
 
 * Reviews Page
 
-    ![Reviews page lighthouse test](assets\images\readme\lighthouse-reviews-desktop.PNG)
+    ![Reviews page lighthouse test](assets/images/readme/lighthouse-reviews-desktop.PNG)
 
     * Tables and lists: Solved by changing the nest relation from a > li to li > a (nav bar)
 
+    * Trust ans Safety: Solved by addind the rel attribute in the anchor tags
+
 * Upcoming Page
 
-    ![Upcoming page lighthouse test](assets\images\readme\lighthouse-upcoming-desktop.PNG)
+    ![Upcoming page lighthouse test](assets/images/readme/lighthouse-upcoming-desktop.PNG)
 
     * Tables and lists: Solved by changing the nest relation from a > li to li > a (nav bar)
 
 * Awards Page
 
-    ![Awards page lighthouse test](assets\images\readme\lighthouse-awards-desktop.PNG)
+    ![Awards page lighthouse test](assets/images/readme/lighthouse-awards-desktop.PNG)
 
     * Tables and lists: Solved by changing the nest relation from a > li to li > a (nav bar)
 
@@ -196,71 +200,71 @@ The images on the awards page represent the games disputing the award.
 
 1. Navigation bar (mobile/tablet):
 
-* Open nav bar
+    * Open nav bar
 
-* Go to review page
+    * Go to review page
 
-* Go to upcoming page
+    * Go to upcoming page
 
-* Go to awards page
+    * Go to awards page
 
-* Go back to home page
+    * Go back to home page
 
 2. Navigation bar (desktop):
 
-* Open nav bar
+    * Open nav bar
 
-* Go to review page
+    * Go to review page
 
-* Go to upcoming page
+    * Go to upcoming page
 
-* Go to awards page
+    * Go to awards page
 
-* Go back to home page
+    * Go back to home page
 
 3. News link
 
-* Click on the link
+    * Click on the link
 
-* Check if link open in a new tab
+    * Check if link open in a new tab
 
 4. Social media links
 
-* Click on Facebook icon
+    * Click on Facebook icon
 
-* Check if it opens in a new tab
+    * Check if it opens in a new tab
 
-* Click on Twitter icon
+    * Click on Twitter icon
 
-* Check if it opens on a new tab
+    * Check if it opens on a new tab
 
-* Click on Instagram icon
+    * Click on Instagram icon
 
-* Check if it opens on a new tab
+    * Check if it opens on a new tab
 
-* Click on YouTube icon
+    * Click on YouTube icon
 
-* Check if it opens on a new tab
+    * Check if it opens on a new tab
 
 5. Newsletter form
 
-* Try to submit the empty form and verify that an error message about the required fields appears
+    * Try to submit the empty form and verify that an error message about the required fields appears
 
-* Try to submit the form with an invalid email address and verify that a relevant error message appears
+    * Try to submit the form with an invalid email address and verify that a relevant error message appears
 
-* Try to submit the form with all inputs valid and verify that a success message appears.
+    * Try to submit the form with all inputs valid and verify that a success message appears.
 
 6. Reviews link
 
-* Click on the link
+    * Click on the link
 
-* Check if link open in a new tab
+    * Check if link open in a new tab
 
 7. Reviews trailer link
 
-* Click on the link
+    * Click on the link
 
-* Check if link open in a new tab
+    * Check if link open in a new tab
 
 ## Deployment
 
@@ -280,148 +284,149 @@ The images on the awards page represent the games disputing the award.
 
 1. Home Page
 
-* News 1: https://www.bbc.co.uk/news/technology-45940734
+    * News 1: https://www.bbc.co.uk/news/technology-45940734
 
-* News 2: https://www.bbc.co.uk/news/newsbeat-44492744
+    * News 2: https://www.bbc.co.uk/news/newsbeat-44492744
 
 2. Reviews Page
 
-* Assassin’s Creed review: https://www.ign.com/articles/assassins-creed-valhalla-review
+    * Assassin’s Creed review: https://www.ign.com/articles/assassins-creed-valhalla-review
 
-* Cyberpunk 2077 review: https://www.ign.com/articles/cyberpunk-2077-review
+    * Cyberpunk 2077 review: https://www.ign.com/articles/cyberpunk-2077-review
 
-* New Pokémon Snap review: https://www.ign.com/articles/new-pokemon-snap-review
+    * New Pokémon Snap review: https://www.ign.com/articles/new-pokemon-snap-review
 
-* Hitman review: https://www.ign.com/articles/hitman-3-review
+    * Hitman review: https://www.ign.com/articles/hitman-3-review
 
-* Among Us review: https://www.ign.com/articles/among-us-review
+    * Among Us review: https://www.ign.com/articles/among-us-review
 
 3. Upcoming Page
 
-* List with upcoming games 2021: https://www.vg247.com/2021/04/29/video-game-release-dates-2021/
+    * List with upcoming games 2021: https://www.vg247.com/2021/04/29/video-game-release-dates-2021/
 
 4. Awards Page
 
-* BAFTA game awards list: https://www.bafta.org/games/awards/2021-nominations-winners
+    * BAFTA game awards list: https://www.bafta.org/games/awards/2021-nominations-winners
 
 ### Media
 
 1. Home Page
 
-* Main image: https://meuxbox.com.br/noticias/confira-a-lista-de-jogos-cross-play-entre-xbox-playstation-nintendo-switch-e-pc/
+    * Main image: https://meuxbox.com.br/noticias/confira-a-lista-de-jogos-cross-play-entre-xbox-playstation-nintendo-switch-e-pc/
 
-* News 1 image: https://www.humblebundle.com/store/agecheck/red-dead-redemption-2
+    * News 1 image: https://www.humblebundle.com/store/agecheck/red-dead-redemption-2
 
-* News 2 image: https://store.steampowered.com/app/812140/Assassins_Creed_Odyssey/
+    * News 2 image: https://store.steampowered.com/app/812140/Assassins_Creed_Odyssey/
 
-* Deathloop trailer: https://www.youtube.com/watch?v=k4NsBsUbSy8
+    * Deathloop trailer: https://www.youtube.com/watch?v=k4NsBsUbSy8
 
-* Resident Evil trailer: https://www.youtube.com/watch?v=YGQ_YtpTwdc
+    * Resident Evil trailer: https://www.youtube.com/watch?v=YGQ_YtpTwdc
 
 2. Reviews Page
 
-* Assassin’s Creed image: https://www.xbox.com/en-US/games/assassins-creed-valhalla
+    * Assassin’s Creed image: https://www.xbox.com/en-US/games/assassins-creed-valhalla
 
-* Assassin’s Creed trailer: https://www.youtube.com/watch?v=ssrNcwxALS4
+    * Assassin’s Creed trailer: https://www.youtube.com/watch?v=ssrNcwxALS4
 
-* Cyberpunk 2077 image: https://store.steampowered.com/app/1091500/Cyberpunk_2077/
+    * Cyberpunk 2077 image: https://store.steampowered.com/app/1091500/Cyberpunk_2077/
 
-* Cyberpunk 2077 trailer: https://www.youtube.com/watch?v=UnA7tepsc7s
+    * Cyberpunk 2077 trailer: https://www.youtube.com/watch?v=UnA7tepsc7s
 
-* New Pokémon Snap image: https://www.nintendo.com/games/detail/new-pokemon-snap-switch/
+    * New Pokémon Snap image: https://www.nintendo.com/games/detail/new-pokemon-snap-switch/
 
-* New Pokemon Snap trailer: https://www.youtube.com/watch?v=L9Q0JMx08Bs
+    * New Pokemon Snap trailer: https://www.youtube.com/watch?v=L9Q0JMx08Bs
 
-* Hitman image: https://www.ioi.dk/announcing-hitman-3/
+    * Hitman image: https://www.ioi.dk/announcing-hitman-3/
 
-* Hitman trailer: https://www.youtube.com/watch?v=avAXhnbs69w
+    * Hitman trailer: https://www.youtube.com/watch?v=avAXhnbs69w
 
-* Among Us image: https://store.steampowered.com/app/945360/Among_Us/
+    * Among Us image: https://store.steampowered.com/app/945360/Among_Us/
 
-* Among Us trailer: https://www.youtube.com/watch?v=-LaY8nQyM_0
+    * Among Us trailer: https://www.youtube.com/watch?v=-LaY8nQyM_0
 
 3. Upcoming Page
 
-* Main img: https://www.gameinformer.com/2021
+    * Main img: https://www.gameinformer.com/2021
 	
 4. Awards Page
 
-* Doom Eternal image: https://slayersclub.bethesda.net/en
+    * Doom Eternal image: https://slayersclub.bethesda.net/en
 
-* The Last of Us 2 image: https://store.playstation.com/pt-br/product/UP9000-CUSA07820_00-THELASTOFUSPART2
+    * The Last of Us 2 image: https://store.playstation.com/pt-br/product/UP9000-CUSA07820_00-THELASTOFUSPART2
 
-* Final Fantasy VII image: https://www.factmag.com/2019/07/15/final-fantasy-vii-remake/
+    * Final Fantasy VII image: https://www.factmag.com/2019/07/15/final-fantasy-vii-remake/
 
-* Spider Man Miles Morales image: https://www.pinterest.com/pin/1044553707292744498/
+    * Spider Man Miles Morales image: https://www.pinterest.com/pin/1044553707292744498/
 
-* Ori and the Will of the Wisps image: https://www.ign.com/games/ori-and-the-will-of-the-wisps
+    * Ori and the Will of the Wisps image: https://www.ign.com/games/ori-and-the-will-of-the-wisps
 
-* Spiritfarer image: https://www.vox.com/culture/2020/9/17/21438643/spiritfarer-video-game-review
+    * Spiritfarer image: https://www.vox.com/culture/2020/9/17/21438643/spiritfarer-video-game-review
 
-* Assassin’s Creed image: https://www.xbox.com/en-US/games/assassins-creed-valhalla
+    * Assassin’s Creed image: https://www.xbox.com/en-US/games/assassins-creed-valhalla
 
-* Cyberpunk 2077 image: https://store.steampowered.com/app/1091500/Cyberpunk_2077/
+    * Cyberpunk 2077 image: https://store.steampowered.com/app/1091500/Cyberpunk_2077/
 
-* Dreams image: https://www.theguardian.com/games/2020/feb/24/dreams-video-games-making-media-molecule-playstation-4
+    * Dreams image: https://www.theguardian.com/games/2020/feb/24/dreams-video-games-making-media-molecule-playstation-4
 
-* Ghost of Tushima image: https://www.mycast.io/stories/ghost-of-tsushima/roles/jin-sakai/762550
+    * Ghost of Tushima image: https://www.mycast.io/stories/ghost-of-tsushima/roles/jin-sakai/762550
 
-* Hades image: https://economictimes.indiatimes.com/magazines/panache/independent-video-game-hades-dominates-bafta-games-awards/articleshow/81701411.cms
+    * Hades image: https://economictimes.indiatimes.com/magazines/panache/independent-video-game-hades-dominates-bafta-games-awards/articleshow/81701411.cms
 
-* Half Life ALYX image: https://salaodejogos.net/aqui-esta-o-novo-half-life/
+    * Half Life ALYX image: https://salaodejogos.net/aqui-esta-o-novo-half-life/
 
-* Astro’s Playroom image: https://psnprofiles.com/trophies/11753-astros-playroom
+    * Astro’s Playroom image: https://psnprofiles.com/trophies/11753-astros-playroom
 
-* Animal Crossing New Horizons image: https://www.twitch.tv/directory/game/Animal%20Crossing%3A%20New%20Horizons
+    * Animal Crossing New Horizons image: https://www.twitch.tv/directory/game/Animal%20Crossing%3A%20New%20Horizons
 
-* Sackboy image: https://www.playstationlifestyle.net/2020/11/23/sackboy-a-big-adventure-review-ps5/
+    * Sackboy image: https://www.playstationlifestyle.net/2020/11/23/sackboy-a-big-adventure-review-ps5/
 
-* F1 image: https://news.xbox.com/en-us/2020/07/10/f1-2020-out-now-xbox-one/
+    * F1 image: https://news.xbox.com/en-us/2020/07/10/f1-2020-out-now-xbox-one/
 
-* Fall Guys image: https://www.esquire.com/lifestyle/a33509197/fall-guys-game-review/
+    * Fall Guys image: https://www.esquire.com/lifestyle/a33509197/fall-guys-game-review/
 
-* The Last Campfire: https://www.nintendo.co.uk/Games/Nintendo-Switch-download-software/The-Last-Campfire-1742914.html
+    * The Last Campfire: https://www.nintendo.co.uk/Games/Nintendo-Switch-download-software/The-Last-Campfire-1742914.html
 
-* RÖKI image: https://www.nintendo.com/games/detail/roki-switch/
+    * RÖKI image: https://www.nintendo.com/games/detail/roki-switch/
 
-* Airborne Kingdom image: https://invisioncommunity.co.uk/airborne-kingdom-takes-flight-today-on-the-epic-games-store/
+    * Airborne Kingdom image: https://invisioncommunity.co.uk/airborne-kingdom-takes-flight-today-on-the-epic-games-store/
 
-* Call of the Sea image: https://www.instant-gaming.com/en/7940-buy-game-steam-call-of-the-sea/
+    * Call of the Sea image: https://www.instant-gaming.com/en/7940-buy-game-steam-call-of-the-sea/
 
-* Carrion image: https://arstechnica.com/gaming/2020/07/carrion-game-review-a-rare-blend-of-unique-brutal-and-darkly-hilarious/
+    * Carrion image: https://arstechnica.com/gaming/2020/07/carrion-game-review-a-rare-blend-of-unique-brutal-and-darkly-hilarious/
 
-* Factorio image: https://store.steampowered.com/app/427520/Factorio/
+    * Factorio image: https://store.steampowered.com/app/427520/Factorio/
 
-* The Falconeer image: https://www.xbox.com/en-US/games/the-falconeer
+    * The Falconeer image: https://www.xbox.com/en-US/games/the-falconeer
 
-* Call of Duty Warzone image: https://support.activision.com/call-of-duty-warzone
+    * Call of Duty Warzone image: https://support.activision.com/call-of-duty-warzone
 
-* Destiny 2 image: https://virgobrasil.com.br/destiny-2-game-estara-de-graca-ate-dia-18/
+    * Destiny 2 image: https://virgobrasil.com.br/destiny-2-game-estara-de-graca-ate-dia-18/
 
-* No Man’s Sky image: https://www.gamesradar.com/no-mans-sky-beyond-is-no-mans-sky-2-in-all-but-name/
+    * No Man’s Sky image: https://www.gamesradar.com/no-mans-sky-beyond-is-no-mans-sky-2-in-all-but-name/
 
-* Sea of Thieves image: https://www.xbox.com/en-US/games/sea-of-thieves
+    * Sea of Thieves image: https://www.xbox.com/en-US/games/sea-of-thieves
 
-* Flight Simulator image: https://games.mxdwn.com/news/microsoft-flight-simulator-gameplay-screenshots-from-alpha-test/
+    * Flight Simulator image: https://games.mxdwn.com/news/microsoft-flight-simulator-gameplay-screenshots-from-alpha-test/
 
-* Minecraft Dungeons image: https://www.nintendo.com/games/detail/minecraft-dungeons-switch
+    * Minecraft Dungeons image: https://www.nintendo.com/games/detail/minecraft-dungeons-switch
 
-* Demon’s Souls image: https://www.ign.com/games/demons-souls
+    * Demon’s Souls image: https://www.ign.com/games/demons-souls
 
-* Before I Forget: https://store.steampowered.com/app/1126600/Before_I_Forget/
+    * Before I Forget: https://store.steampowered.com/app/1126600/Before_I_Forget/
 
-* Tell Me Why image: https://www.gamespew.com/2020/08/tell-me-why-review/
+    * Tell Me Why image: https://www.gamespew.com/2020/08/tell-me-why-review/
 
-* Deep Rock Galactic image: https://news.xbox.com/en-us/2020/05/12/tips-deep-rock-galactic-available-may-13-xbox/
+    * Deep Rock Galactic image: https://news.xbox.com/en-us/2020/05/12/tips-deep-rock-galactic-available-may-13-xbox/
 
-* Valorant image: https://www.riotgames.com/en/news/starting-the-valorant-journey
+    * Valorant image: https://www.riotgames.com/en/news/starting-the-valorant-journey
 
-* Kentucky Route Zero image: https://www.eneba.com/steam-kentucky-route-zero-steam-key-global
+    * Kentucky Route Zero image: https://www.eneba.com/steam-kentucky-route-zero-steam-key-global
 
-* Fortnite image: https://www.microsoft.com/en-es/p/fortnite/bt5p2x999vh2?activetab=pivot:overviewtab
+    * Fortnite image: https://www.microsoft.com/en-es/p/fortnite/bt5p2x999vh2?activetab=pivot:overviewtab
 
 5. Icons
-* Facebook, Instagram, Twitter, Youtube and Trophy: https://fontawesome.com/
+
+    * Facebook, Instagram, Twitter, Youtube and Trophy: https://fontawesome.com/
 
 ### Acknowledgments
 
@@ -429,7 +434,7 @@ The images on the awards page represent the games disputing the award.
 
 * CSS Reset: https://meyerweb.com/eric/tools/css/reset/
 
-* Css Hamburger Menu (navigation bar): https://css-tricks.com/three-css-alternatives-to-javascript-navigation/
+* CSS Hamburger Menu (navigation bar): https://css-tricks.com/three-css-alternatives-to-javascript-navigation/
 
 * Button Generator (reviews page): https://www.bestcssbuttongenerator.com/#/19
 
