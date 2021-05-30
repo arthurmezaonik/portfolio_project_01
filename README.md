@@ -10,6 +10,46 @@ https://arthurmezaonik.github.io/portfolio_project_01/index.html
 
 Arthur Henrique EL Mezaonik Martins
 
+## Table of Contents
+
+- [GAMES](#games)
+  * [Author](#author)
+  * [Design Choices](#design-choices)
+    + [Typography](#typography)
+    + [Colors](#colors)
+    + [Images](#images)
+    + [Wireframes](#wireframes)
+  * [Features](#features)
+    + [Implemented Features](#implemented-features)
+      - [Navigation Bar](#navigation-bar)
+      - [Main Image and Text](#main-image-and-text)
+      - [News Section](#news-section)
+      - [Upcoming Games Video Section](#upcoming-games-video-section)
+      - [Footer](#footer)
+      - [Review Page](#review-page)
+      - [Upcoming Games Page](#upcoming-games-page)
+      - [Awards Page](#awards-page)
+    + [Future Features](#future-features)
+  * [Testing](#testing)
+    + [Validation Testing](#validation-testing)
+    + [Lighthouse Test](#lighthouse-test)
+      - [Home Page (desktop)](#home-page--desktop-)
+      - [Home Page (mobile)](#home-page--mobile-)
+      - [Reviews Page](#reviews-page)
+      - [Upcoming Page](#upcoming-page)
+      - [Awards Page](#awards-page-1)
+    + [Cross Browser and Cross Device Testing](#cross-browser-and-cross-device-testing)
+    + [Manual Testing](#manual-testing)
+  * [Deployment](#deployment)
+    + [Deploy to GitHub Pages](#deploy-to-github-pages)
+  * [Credits](#credits)
+    + [Content](#content)
+    + [Media](#media)
+    + [Acknowledgments](#acknowledgments)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
 ## Design Choices
 
 ### Typography
@@ -21,6 +61,18 @@ Arthur Henrique EL Mezaonik Martins
 * Recursive - Recursive font was used as the main font.
 
 ![Recursive Font](assets/images/readme/recursivefont.png)
+
+### Colors
+
+[Color pallet](assets/images/readme/colors.png)
+
+* The colors #000000 and #A3A3A3 are most used as background colors. They were chosen for being neutral colors.
+
+* The color #FFFFFF is used for text when there is a black background.
+
+* The color #FF000000 is most used as border. It was chosen to give some contrast with the background and give some color to the page.
+
+* The color #0000AB is used in links that open in new pages. The color was chosen to have a good contrast with the background.
 
 ### Images
 
@@ -64,73 +116,73 @@ The images on the awards page represent the games disputing the award.
 
 ### Implemented Features
 
-* Navigation Bar
+#### Navigation Bar
 
-    ![Navigation bar desktop](assets/images/readme/navbar_desktop.png)
+![Navigation bar desktop](assets/images/readme/navbar_desktop.png)
 
-    * Featured on all pages, the navigation bar includes the Logo, Home page, Reviews, Upcoming and Awards page.
+* Featured on all pages, the navigation bar includes the Logo, Home page, Reviews, Upcoming and Awards page.
 
-    * It’s located identical in each page to allow easy navigation.
+* It’s located identical in each page to allow easy navigation.
 
-    * It adjusts itself from different devices (ex: mobile).
+* It adjusts itself from different devices (ex: mobile).
 
-    ![Navigation bar mobile](assets/images/readme/navbar_mobile.png)
+![Navigation bar mobile](assets/images/readme/navbar_mobile.png)
 
-* Main Image and Text
+#### Main Image and Text
 
-    * The main image allows the user to see that the website is for players from all types of platforms, while the paragraph shows us what is the main subject.
+* The main image allows the user to see that the website is for players from all types of platforms, while the paragraph shows us what is the main subject.
 
 ![Main image](assets/images/readme/main.png)
 
-* News Section
+#### News Section
 
-    ![News section](assets/images/readme/news.png)
+![News section](assets/images/readme/news.png)
 
-    * The news section allows the user to have an easy way to check the latest news related to games.
+* The news section allows the user to have an easy way to check the latest news related to games.
 
-    * The news presents a header, author, and a summary about the content with a link for the full news. The link will open the news in a new tab.
+* The news presents a header, author, and a summary about the content with a link for the full news. The link will open the news in a new tab.
 
-* Upcoming Games Video Section
+#### Upcoming Games Video Section
 
-    ![Upcoming videos section](assets/images/readme/upcomingvideo.jpg)
+![Upcoming videos section](assets/images/readme/upcomingvideo.jpg)
 
-    * This section presents to us two trailers from games that will be released in the year, trying to create expectations for the final user.
+* This section presents to us two trailers from games that will be released in the year, trying to create expectations for the final user.
 
-    * The trailers can be updated as new game trailers are released.
+* The trailers can be updated as new game trailers are released.
 
-* Footer
+#### Footer
 
-    ![Footer](assets/images/readme/footer.png)
+![Footer](assets/images/readme/footer.png)
 
-    * The footer includes links to all relevant social media sites for the Games website. All the links will open in a new tab.
+* The footer includes links to all relevant social media sites for the Games website. All the links will open in a new tab.
 
-    * The footer includes a form to sign up for a newsletter.
+* The footer includes a form to sign up for a newsletter.
 
-* Review Page
+#### Review Page
 
-    ![Review page](assets/images/readme/review.png)
+![Review page](assets/images/readme/review.png)
 
-    * The review webpage presents for the user some games with a brief summary of the review and a link for the full review. The link will open in a new tab.
+* The review webpage presents for the user some games with a brief summary of the review and a link for the full review. The link will open in a new tab.
 
-    * Each game has a button that will open a new tab with the game trailer.
+* Each game has a button that will open a new tab with the game trailer.
 
-    * Each game receives a grade.
+* Each game receives a grade.
 
-    ![Review page](assets/images/readme/review_mobile.png)
+![Review page](assets/images/readme/review_mobile.png)
 
-* Upcoming Games Page
+#### Upcoming Games Page
 
-    ![Upcoming page](assets/images/readme/upcoming.jpg)
+![Upcoming page](assets/images/readme/upcoming.jpg)
 
-    * This webpage presents to the user a list of the months of the year that can be expanded to see which games will be released on that specific month.
+* This webpage presents to the user a list of the months of the year that can be expanded to see which games will be released on that specific month.
 
-* Awards Page
+#### Awards Page
 
-    ![Awards page](assets/images/readme/awards.jpg)
+![Awards page](assets/images/readme/awards.jpg)
 
-    * This page will present to the user the last BAFTA game awards list and the winner for each category.
+* This page will present to the user the last BAFTA game awards list and the winner for each category.
 
-    * For mobile and tablet the games are presented in form of list.
+* For mobile and tablet the games are presented in form of list.
 
 ### Future Features
 
@@ -152,39 +204,39 @@ The images on the awards page represent the games disputing the award.
 
 ### Lighthouse Test
 
-* Home Page (desktop)
+#### Home Page (desktop)
 
-    ![Home page lighthouse test](assets/images/readme/lighthouse_homepage_desktop.PNG)
+![Home page lighthouse test](assets/images/readme/lighthouse_homepage_desktop.PNG)
     
-    * Trust ans Safety: Solved by addind the rel attribute in the anchor tags
+* Trust ans Safety: Solved by addind the rel attribute in the anchor tags
 
-* Home Page (mobile)
+#### Home Page (mobile)
 
-    ![Home page lighthouse test](assets/images/readme/lighthouse_homepage_mobile.PNG)
+![Home page lighthouse test](assets/images/readme/lighthouse_homepage_mobile.PNG)
 
-    * Names and labels: not solved
+* Names and labels: not solved
 
-    * Tables and lists: Solved by changing the nest relation from a > li to li > a (nav bar)
+* Tables and lists: Solved by changing the nest relation from a > li to li > a (nav bar)
 
-* Reviews Page
+#### Reviews Page
 
-    ![Reviews page lighthouse test](assets/images/readme/lighthouse-reviews-desktop.PNG)
+![Reviews page lighthouse test](assets/images/readme/lighthouse-reviews-desktop.PNG)
 
-    * Tables and lists: Solved by changing the nest relation from a > li to li > a (nav bar)
+* Tables and lists: Solved by changing the nest relation from a > li to li > a (nav bar)
 
-    * Trust ans Safety: Solved by addind the rel attribute in the anchor tags
+* Trust ans Safety: Solved by addind the rel attribute in the anchor tags
 
-* Upcoming Page
+#### Upcoming Page
 
-    ![Upcoming page lighthouse test](assets/images/readme/lighthouse-upcoming-desktop.PNG)
+![Upcoming page lighthouse test](assets/images/readme/lighthouse-upcoming-desktop.PNG)
 
-    * Tables and lists: Solved by changing the nest relation from a > li to li > a (nav bar)
+* Tables and lists: Solved by changing the nest relation from a > li to li > a (nav bar)
 
-* Awards Page
+#### Awards Page
 
-    ![Awards page lighthouse test](assets/images/readme/lighthouse-awards-desktop.PNG)
+![Awards page lighthouse test](assets/images/readme/lighthouse-awards-desktop.PNG)
 
-    * Tables and lists: Solved by changing the nest relation from a > li to li > a (nav bar)
+* Tables and lists: Solved by changing the nest relation from a > li to li > a (nav bar)
 
 ### Cross Browser and Cross Device Testing
 
@@ -394,7 +446,9 @@ The images on the awards page represent the games disputing the award.
 
 * Ribbon Generator (awards page): https://www.cssportal.com/css-ribbon-generator/
 
-* Table Generator (Readme): https://www.tablesgenerator.com/markdown_tables
+* Tables Generator (readme): https://www.tablesgenerator.com/markdown_tables
+
+* Table of contents generator (readme): https://ecotrust-canada.github.io/markdown-toc/
 
 * Malia Havlicek: Reviewing and giving suggestions how to improve my project.
 	
