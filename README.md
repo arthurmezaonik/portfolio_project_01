@@ -200,73 +200,17 @@ The images on the awards page represent the games disputing the award.
 
 ### Manual Testing
 
-1. Navigation bar (mobile/tablet):
-
-    * Open nav bar
-
-    * Go to review page
-
-    * Go to upcoming page
-
-    * Go to awards page
-
-    * Go back to home page
-
-2. Navigation bar (desktop):
-
-    * Open nav bar
-
-    * Go to review page
-
-    * Go to upcoming page
-
-    * Go to awards page
-
-    * Go back to home page
-
-3. News link
-
-    * Click on the link
-
-    * Check if link open in a new tab
-
-4. Social media links
-
-    * Click on Facebook icon
-
-    * Check if it opens in a new tab
-
-    * Click on Twitter icon
-
-    * Check if it opens on a new tab
-
-    * Click on Instagram icon
-
-    * Check if it opens on a new tab
-
-    * Click on YouTube icon
-
-    * Check if it opens on a new tab
-
-5. Newsletter form
-
-    * Try to submit the empty form and verify that an error message about the required fields appears
-
-    * Try to submit the form with an invalid email address and verify that a relevant error message appears
-
-    * Try to submit the form with all inputs valid and verify that a success message appears.
-
-6. Reviews link
-
-    * Click on the link
-
-    * Check if link open in a new tab
-
-7. Reviews trailer link
-
-    * Click on the link
-
-    * Check if link open in a new tab
+| Feature Tested                          | Steps Taken                                                                                                                                                                                                                         |
+|-----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Navigation-table/mobile                 | 1. Start on a given page (Home, Reviews Awards, Upcoming)<br>2. Click each navigation link and make sure you go where you expect                                                                                                    |
+| Navigation - Desktop                    | 1. Start on a given page (Home, Reviews Awards, Upcoming)<br>2. Click each navigation link and make sure you go where you expect                                                                                                    |
+| News Links:<br>opens in new tab         | 1. On the home page, click on the two "link to the full news" links<br>2. verify that a new tab opens                                                                                                                               |
+| Social media Links:<br>opens in new tab | 1. For each page (Home, Reviews, Awards, Upcoming, scroll to footer)<br>2. For each social medial link (Facebook, Twitter, Instagram, Youtube)<br>3. verify clicking icon opens new tab                                             |
+| News letter form:<br>opens in new tab   | 1. For each page (Home, Reviews, Awards, Upcoming, scroll to footer)<br>2. fill out form<br>3. click submit<br>4. verify success message opens in new tab                                                                           |
+| Newsletter form:<br>validation          | 1. On home page<br>2. in footer click submit button<br>3. verify you get error message <br>4. type hi and click submit<br>5. verify error message<br>6. enter hello.c<br>7. verify error message<br>8. enter hi@c verify it submits |
+| Reviews Page: <br>Links work            | 1. Go to Reviews pag<br>2. click on read full review for each game<br>3. verify new tab opens<br>4. click on watch trailer button for each game<br>5. verify new tab opens                                                          |
+| Upcoming Page:<br>Accordions Work       | 1. Land on Upcoming Page<br>2. Click each month to expand<br>3. Click each moth to collapse                                                                                                                                         |
+| Awards Page:                            | 1. Land on Page<br>2. Verify images look good and not distorted                                                                                                                                                                     |
 
 ## Deployment
 
@@ -449,6 +393,8 @@ The images on the awards page represent the games disputing the award.
 * Style for awards page: https://thegameawards.com/nominees
 
 * Ribbon Generator (awards page): https://www.cssportal.com/css-ribbon-generator/
+
+* Table Generator (Readme): https://www.tablesgenerator.com/markdown_tables
 
 * Malia Havlicek: Reviewing and giving suggestions how to improve my project.
 	
