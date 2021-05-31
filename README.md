@@ -434,6 +434,8 @@ The images on the awards page represent the games disputing the award.
 
 * CSS Hamburger Menu (navigation bar): https://css-tricks.com/three-css-alternatives-to-javascript-navigation/
 
+* Colos Pallet: https://coolors.co/
+
 * Button Generator (reviews page): https://www.bestcssbuttongenerator.com/#/19
 
 * Hexagon shape (review page): https://css-tricks.com/the-shapes-of-css/
